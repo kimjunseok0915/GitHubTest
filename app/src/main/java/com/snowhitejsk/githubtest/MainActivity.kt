@@ -3,6 +3,7 @@
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      class MainActivity : AppCompatActivity() {
@@ -12,5 +13,8 @@ import android.widget.Toast
         
         val btn: Button =findViewById(R.id.btn)
         btn.setOnClickListener{ Toast.makeText(this, "clicked button", Toast.LENGTH_SHORT).show()}
+
+        val tv:TextView= findViewById(R.id.tv)
+        tv.text="nice to meet  you"
     }
 }
